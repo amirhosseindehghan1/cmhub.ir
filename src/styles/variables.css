@@ -1,0 +1,160 @@
+:root {
+    /* main variables */
+    --primaryColor: #4505A1;
+    --secondaryColor: #A254FE;
+    --mainBackgroundColor: #FBFBFB;
+    --whiteBackgroundColor: white;
+    --DarkBlueBackgroundColor: #0D132B;
+    --pinkBackgroundColor: #E3A4FF;
+    --linearBackgroundColor: linear-gradient(135deg, #4606a0 0%, #5614b3 10%, #8239e5 39%, #994dff 50%, #e3a4ff 100%);
+
+
+    /* text colors variables */
+    --tBlack: #000000;
+    --tDarkBlue: #0E183E;
+    --tWhite: white;
+    --tBlue: rgb(81, 172, 220);
+    --tLightenGray: #5E5B63;
+
+    /* thirdParty variables */
+
+    --color-danger: #e74c3c;
+
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+
+    --toastify-icon-color-info: #fff;
+    --toastify-icon-color-success: #fff;
+    --toastify-icon-color-warning: #fff;
+    --toastify-icon-color-error: #fff;
+
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+
+    /* Used only for colored theme */
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+
+    /* Used when no type is provided
+	 toast("**hello**") */
+    --toastify-color-progress-light: linear-gradient(to right,
+            #4cd964,
+            #5ac8fa,
+            #007aff,
+            #34aadc,
+            #5856d6,
+            #ff2d55);
+    /* Used when no type is provided */
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+
+    /* end thirdParty variables */
+
+    /* profile variables */
+    --backgroundColor-body_profile: white;
+    --backgroundColor-mainMenu_profile: white;
+    --backgroundColor-mainMenuBorder_profile: #ddd;
+    --backgroundColor-icon_profile: #fafafa;
+    --color-mainMenuIcon_profile: #131b1f;
+    --color-mainMenuIndicator_profile: #131b1f;
+    --color-title_profile: #131b1f;
+    --color-groupTitle_profile: rgba(19, 27, 31, 0.5);
+
+    --shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    --card-shadow: 0px 10px 44px rgba(0, 0, 0, 0.08);
+
+    --spacing-4xsmall: 0.4rem;
+    --spacing-2xsmall: 0.8rem;
+    --spacing-small: 1.2rem;
+    --spacing-medium: 1.6rem;
+    --spacing-large: 2rem;
+    --spacing-xlarge: 2.4rem;
+    --spacing-2xlarge: 3.2rem;
+    --spacing-3xlarge: 4rem;
+    --spacing-4xlarge: 4.8rem;
+    --spacing-5xlarge: 6.4rem;
+    --spacing-6xlarge: 8rem;
+    --spacing-7xlarge: 9rem;
+    --spacing-8xlarge: 7.5rem;
+    --spacing-9xlarge: 12rem;
+    --spacing-10xlarge: 14.4rem;
+    --spacing-11xlarge: 16rem;
+
+    --radius-1: 5px;
+    --radius-2: 8px;
+    --radius-3: 10px;
+    --radius-4: 15px;
+    --radius-5: 20px;
+    --radius-6: 24px;
+    --radius-7: 30px;
+
+    --margin-container: 12.8rem;
+
+    --font-family: "Yekan Bakh";
+
+    --size-sm: 320px;
+    --size-m: 480px;
+    --size-lm: 650px;
+    --size-t: 768px;
+    --size-l: 992px;
+    --size-ml: 1200px;
+    --size-xl: 1366px;
+
+    --default-maxWidthContent: 800px;
+    --default-maxWidthNavbar: 800px;
+}
+
+@media screen and (max-width: 375px) {
+    :root {
+        --spacing-4xsmall: 0.757575rem;
+        /* 4px */
+        --spacing-2xsmall: 1.515151rem;
+        /* 8px */
+        --spacing-small: 2.272727rem;
+        /* 12px */
+        --spacing-medium: 3.0303rem;
+        /* 16px */
+        --spacing-large: 3.787879rem;
+        /* 20px */
+        --spacing-xlarge: 4.545454rem;
+        /* 24px */
+        --spacing-2xlarge: 6.0606rem;
+        /* 32px */
+        --spacing-3xlarge: 7.5757rem;
+        /* 40px */
+        --spacing-4xlarge: 9.0909rem;
+        /* 48px */
+        --spacing-5xlarge: 12.1212rem;
+        /* 64px */
+        --spacing-6xlarge: 15.1515rem;
+        /* 80px */
+        --spacing-7xlarge: 18.1818rem;
+        /* 96px */
+        --spacing-8xlarge: 18.1818rem;
+        /* 120px */
+        --spacing-9xlarge: 31.25rem;
+        /* 165px */
+        --spacing-10xlarge: 37.7878rem;
+        /* 200px */
+    }
+}

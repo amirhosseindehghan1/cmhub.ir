@@ -1,0 +1,7 @@
+@import "./public.css";
+@import "./reset.css";
+@import "./variables.css";
+@import "../fonts/yekanBakh/yekanbakh.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
